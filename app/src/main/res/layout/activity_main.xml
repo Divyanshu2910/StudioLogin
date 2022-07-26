@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allela"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_widbth="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_tree"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/etStudio"
+        android:text="Studio account"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />:
+    <EditText
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/etEmail"
+        android:hint="Enter Email or user id"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/etPassword"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:hint="password"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="20dp"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgotpassword?"
+        android:id="@+id/tvforgotpassword"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        >
+        </TextView>
+    <Button
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="login"
+        android:background="@color/black"
+        >
+        </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/tvSignup"
+        android:text="Sign up"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+
+</LinearLayout>
