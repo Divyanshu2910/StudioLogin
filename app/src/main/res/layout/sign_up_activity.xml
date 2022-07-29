@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allela"
+    tools:context=".ForgotPasswordActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:id="@+id/tvSignup"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+     />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:hint="@string/Enter_your_name"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Enter_your_email"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:hint="Enter your email"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your phone number"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:hint="Enter your phone number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter password"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:digits="0123456789"
+        android:hint="Enter password"
+        android:inputType="number"
+        android:maxLength="10"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/tvpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter password"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:digits="0123456789"
+        android:hint="Enter password"
+        android:inputType="number"
+        android:maxLength="10"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How you want to be addressed?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtnhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/he"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnshe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/she"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnothers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/others"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnRegister"
+        android:text="@string/register"
+        android:background="@color/black"
+        />
+
+</LinearLayout>

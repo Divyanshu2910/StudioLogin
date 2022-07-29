@@ -3,4 +3,17 @@
     <string name="please_enter_email">Please Enter email</string>
     <string name="please_enter_Password">please enter Password</string>
     <string name="login_successfully">login successfully</string>
+    <string name="Register_successfully">Register successfully</string>
+    <string name="otp_verify">otp verify</string>
+    <string name="here">here</string>
+    <string name="at_least_6_numbers">at least 6 numbers</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="Enter_your_name">Enter your name</string>
+    <string name="Enter_your_email">Enter your email</string>
+    <string name="she">she</string>
+    <string name="others">others</string>
+    <string name="register">Register</string>
+    <string name="he">he</string>
+    <string name="please_reenter_Password">Please Re-enter Password</string>
 </resources>
